@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ECSS Computer Science Club</title>
+    <link rel="stylesheet" href="Web Files/Styles/index.css" />
+  </head>
+  <body
+    onload="setTimeout(function() {
+    headerAnimation();
+    setTimeout(revealHeaderCaption, 3000);
+    setTimeout(scrollAnimation, 3500);
+    setTimeout(captionAnimation, 4500);
+    setTimeout(imageAnimation, 5500);
+    setTimeout(createButton, 40000);
+    setTimeout(createSignUpButton, 40000);
+    setTimeout(scrollToButton, 40500);
+}, 500)"
+  >
+    <script src="Web Files/Scripts/index.js"></script>
+    <div class="content-space"></div>
+    <div id="header-container">
+      <div id="ecss-container">
+        <div class="ecss" class="header-content" id="e"></div>
+        <div class="ecss" class="header-content" id="c"></div>
+        <div class="ecss" class="header-content" id="s"></div>
+        <div class="ecss" class="header-content" id="s1"></div>
+      </div>
+      <div id="clubname-container">
+        <div id="word1" class="words" class="header-content"></div>
+        <div id="word2" class="words" class="header-content"></div>
+      </div>
+      <figure id="content-container">
+        <h1 class="ecss" id="heading"></h1>
+        <img
+          src="Web Files/Images/Computer Science Logo.png"
+          alt="Logo and executes member images unavailable (Image Unavailable)"
+          id="images"
+        />
+      </figure>
+      <figcaption id="caption"></figcaption>
+      <a href='member_info.html' class='btn' id='btn1'>Meet Our Members!</a>
+      <a href='sign up.html' class='btn' id='btn2'>Sign Up!</a>
+    </div>
+  </body>
+</html>

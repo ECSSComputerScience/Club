@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(95, 158, 160);
+}
+
+h1{
+    text-align: center;
+    font-size: 6vh;
+    color: rgb(160, 97, 95)
+}
+
+.positions-content{
+    text-align: center;
+    font-size: 2vh;
+    color: white;
+}
+
+.form{
+    display: block;
+    margin: 0 auto;
+    width: 40vw;
+    height: 5vh;
+    font-size: 75%;
+    background-color: white;
+}
+
+#submit-button{
+    margin-top: 5vh;
+    background-color: grey;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .form{
+        width: 100vw;
+        font-size: 10px;
+    }
+    .positions-content{
+        font-size: 2vh;
+    }
+}
+
