@@ -35,7 +35,7 @@ button{
 
 @media screen and (max-width: 768px) {
     .input-field{
-        width: 110vw;
+        width: 130vw;
         font-size: 10px;
     }
     button{
