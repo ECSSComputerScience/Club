@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(95, 158, 160);
+}
+
+h1{
+    text-align: center;
+    font-size: 4vh;
+    color: rgb(160, 97, 95);
+    margin-top: 3%;
+}
+
+a{
+    margin-left: 42vw;
+    font-size: 3vh;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    a{
+        font-size: 2vh;
+        margin-left: 30vw;
+    }
+}
