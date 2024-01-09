@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+}
+
+header{
+    text-align: center;
+    color: wheat;
+    font-size: 10vh;
+    margin-top: 20vh;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    text-decoration: underline;
+}
+
+.member-images{
+    position: absolute;
+    width: 15vw;
+    height: 20vw;
+    left: 42%;
+    border-radius: 50%;
+}
+
+#carlo{
+    top: 40%;
+}
+
+.captions{
+    position: absolute;
+    color: wheat;
+    font-size: 5vh;
+}
+
+.first_name{
+    left: 30%;
+}
+
+.surname{
+    left: 60%;
+}
+
+#f_carlo, #s_papi{
+    top: 55%;
+}
+
+#jaden{
+    top: 90%;
+}
+
+#f_jaden, #s_peric{
+    top: 105%;
+}
+
+#maryam{
+    top: 130%;
+    width: 20vw;
+    left: 40%;
+}
+
+#f_maryam, #s_khan{
+    top: 150%;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        font-size: 8vh;
+    }
+    .member-images{
+        width: 40vw;
+        height: 45vw;
+        left: 30%;
+    }
+    #carlo{
+        top: 50%;
+    }
+    #jaden{
+        top: 80%;
+    }
+    #f_jaden, #s_peric{
+        top: 85%;
+    }
+    #maryam{
+        top: 105%;
+        width: 50vw;
+        height: 55vw;
+        left: 30%;
+    }
+    #f_maryam, #s_khan{
+        top: 115%;
+    }
+    .captions{
+        font-size: 4vh;
+    }
+    .first_name{
+        left: 12%;
+    }
+    .surname{
+        left: 73%;
+    }
+    
+}

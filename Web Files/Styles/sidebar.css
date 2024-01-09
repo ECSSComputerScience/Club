@@ -1,0 +1,176 @@
+#sidebar-container{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    height: 100vh;
+    width: 10vw;
+    background-color: white;
+    background-color: rgb(128, 128, 128);
+}
+
+#buttons-container{
+    position: absolute;
+    top: -5%;
+}
+
+.sidebar-button{
+    font-size: 2.5vh;
+    margin-top: 10vh;
+    width: 10vw;
+    max-width: 10vw;
+    color: rgb(127, 127, 127);
+    z-index: 1;
+}
+
+@keyframes sidebarAnimation {
+    0%{
+        width: 0
+    }
+    25%{
+        width: 2.5vw;
+    }
+    50%{
+        width: 5vw;
+    }
+    75%{
+        width: 7.5vw;
+    }
+    100%{
+        width: 10vw;
+    }
+}
+
+@keyframes mobileAnimation {
+    0% {
+        width: 0vw;
+    }
+    5% {
+        width: 5vw;
+    }
+    10% {
+        width: 10vw;
+    }
+    15% {
+        width: 15vw;
+    }
+    20% {
+        width: 20vw;
+    }
+    25% {
+        width: 25vw;
+    }
+    30% {
+        width: 30vw;
+    }
+    35% {
+        width: 35vw;
+    }
+    40% {
+        width: 40vw;
+    }
+    45% {
+        width: 45vw;
+    }
+    50% {
+        width: 50vw;
+    }
+    55% {
+        width: 55vw;
+    }
+    60% {
+        width: 60vw;
+    }
+    65% {
+        width: 65vw;
+    }
+    70% {
+        width: 70vw;
+    }
+}
+
+@keyframes mobileAnimationReverse {
+    0% {
+        width: 70vw;
+    }
+    5% {
+        width: 65vw;
+    }
+    10% {
+        width: 60vw;
+    }
+    15% {
+        width: 55vw;
+    }
+    20% {
+        width: 50vw;
+    }
+    25% {
+        width: 45vw;
+    }
+    30% {
+        width: 40vw;
+    }
+    35% {
+        width: 35vw;
+    }
+    40% {
+        width: 30vw;
+    }
+    45% {
+        width: 25vw;
+    }
+    50% {
+        width: 20vw;
+    }
+    55% {
+        width: 15vw;
+    }
+    60% {
+        width: 10vw;
+    }
+    65% {
+        width: 5vw;
+    }
+    70% {
+        width: 0vw;
+    }
+}
+
+
+#mobile-sidebar-button{
+    width: 10vw;
+    visibility: hidden;
+    z-index: 1
+}
+
+@keyframes flashMobileSidebarButton {
+    0%{
+        opacity: 0;
+        background-color: white;
+    }
+    50%{
+        opacity: 1;
+        background-color: wheat;
+    }
+    100%{
+        opacity: 0;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #sidebar-container, #buttons-container, .sidebar-button{
+        visibility: hidden;
+        width: 0vw;
+    }
+    #mobile-sidebar-button{
+        position: fixed;
+        margin-top: 10vh;
+        background-color: white;
+        visibility: visible;
+        animation: flashMobileSidebarButton infinite 2s;
+    }
+    .sidebar-button{
+        max-width: 70vw;
+    }
+}   

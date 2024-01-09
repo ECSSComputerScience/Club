@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+.content{
+    text-align: center;
+    color: wheat;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+}
+
+header{
+    font-size: 10vh;
+    margin-top: 10vh;
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 4vh;
+    margin-right: 40vw;
+    margin-top: 10vh;
+}
+
+#club-activities-container{
+    position: absolute;
+    left: 30%;
+}
+
+.individual-activities{
+    max-width: 30vw;
+    font-size: 2.5vh;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        font-size: 8vh;
+    }
+    h1{
+        min-width: 70vw;;
+    }
+    #club-activities-container{
+        left: 25%;
+    }
+    .individual-activities{
+        max-width: 70vw;
+    }
+}

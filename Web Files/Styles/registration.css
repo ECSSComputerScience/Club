@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+#form{
+    position: absolute;
+    left: 37%;
+    top: 30%;
+}
+
+.headings{
+    text-align: center;
+    color: wheat;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+}
+
+h1{
+    font-size: 7vh;
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 3vh;
+    
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 5vh;
+        margin-left: 10vw
+    }
+    h2{
+        font-size: 2.5vh;
+        margin-left: 20vw;
+    }
+    #form{
+        width: 95vw;
+        top: 30%;
+        left: 18.5%;
+    }
+}
